@@ -1,0 +1,576 @@
+
+@import url(./login.css);
+@import url(./cards.css);
+@import url(./footer.css);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-block{
+    /* border: 2px solid red; */
+    height: 550px;
+    background: linear-gradient(rgb(14,14,38),rgb(40,40,103),rgb(58,58,155),rgb(51,51,120));
+ 
+}
+.nav-block .header-block{
+    height: 80px;
+    /* border: 2px solid red; */
+}
+.nav-block .header-block .header-blockin{
+    height: 80px;
+    width: 70%;
+    /* border: 2px solid rgb(249, 3, 3); */
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-block .header-blockin.domain{
+    height: 80px;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+.header-block .header-blockin .domain > h1{
+    font-size: x-large;
+    border: 2px solid rgb(7, 239, 7);
+    color: aliceblue;
+    background-color: rgb(18,18,53);
+    border-radius: 10px 10px;
+    border-color: none;
+    height: 60px;
+    width: 40px;
+    padding: auto;
+    animation:t;
+    animation-delay: 1s;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes t{
+    15%{
+        height: 60px;
+        width: 40px;
+        padding: auto;
+        border-radius:100%;
+        background-color: gray;
+        color: rgb(66, 4, 250);
+        font-size: x-large;
+        padding-left: 5px;
+    }
+    35%{
+        height: 60px;
+        width: 40px;
+        padding: auto;
+        /* border-radius:20px 10px; */
+        background-color: rgb(53,168,213);
+        color: rgb(253, 249, 3);
+        font-size: x-large;
+        padding-left: 15px;
+    }
+    65%{
+        height: 60px;
+        width: 40px;
+        padding: auto;
+        border-radius:15px 10px;
+        background-color: rgb(208,24,24);
+        color: rgb(245, 5, 5);
+        font-size: x-large;
+        padding-left: 5px;
+    }
+    85%{
+        height: 60px;
+        width: 40px;
+        padding: auto;
+        border-radius:30%;
+        background-color: rgb(15,5,5);
+        color: rgb(26, 245, 6);
+        font-size: x-large;
+        padding-left: 5px;
+    }
+    100%{
+        height: 60px;
+        width: 40px;
+        padding: auto;
+        border: 2px solid rgb(21,21,44);
+        border-radius:10px 10px;
+        background-color: rgb(18,18,53);
+        color: rgb(4, 131, 243);
+        font-size: x-large;
+        padding-left: 40px;
+        padding-top: 15px;
+
+    }
+}
+/* .header-block .header-blockin .domain > h5{
+   font-size: x-large;
+   width: 100px;
+   min-height: 60px;
+   padding-top: 10px;
+   text-align: center;
+   border: 2px solid rgb(208, 44, 44);
+   color:  goldenrod;
+   background-color: aqua;
+   border-radius: 10px 10px;
+   padding: auto;
+   animation: rap;
+   animation-delay: 1s;
+   animation-duration: 8s;
+   animation-iteration-count: infinite; 
+}*/
+@keyframes rap{
+    15%{
+        height: 60px;
+        width: 30px;
+        padding: auto;
+        border-radius:10%;
+        background-color: rgb(218, 105, 105);
+        color: antiquewhite;
+        font-size: x-large;
+        padding-left: 5px;
+        /* border-color: none;    */
+     }
+    35%{
+        height: 60px;
+        width: 50px;
+        padding: auto;
+        /* border-radius:20px 10px; */
+        background-color: rgb(53,168,213);
+        color: rgb(197,31,31);
+        font-size: x-large;
+        padding-left: 15px;
+        border-radius: 15%;
+
+    }
+    65%{
+        height: 60px;
+        width: 70px;
+        padding: auto;
+        border-radius:15px 10px;
+        background-color: rgb(208,24,24);
+        color: rgb(73,191,227);
+        font-size: x-large;
+        padding-left: 5px;
+        border-radius: 30%;
+
+    }
+    85%{
+        height: 60px;
+        width: 150px;
+        padding: auto;
+        border-radius:20%;
+        background-color: rgb(15,5,5);
+        color: antiquewhite;
+        font-size: x-large;
+        padding-left: 5px;
+    }
+    100%{
+        height: 60px;
+        width: 115px;
+        padding: auto;
+        border: 2px solid rgb(21,21,44);
+        border-radius:10%;
+        background-color: rgb(18,18,53);
+        color: aliceblue;
+        font-size: x-large;
+        padding-left: 15px;
+        padding-top: 15px;
+
+    }
+}
+
+.header-block .header-blockin .modules{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.header-block .header-blockin .modules>.specialoffers{
+    height: 80px;
+    width: 210px;
+    display: flex;
+    /* border: 2px solid rgb(13, 223, 58); */
+    justify-content: center;
+    align-items: center;
+}
+.header-block .header-blockin .modules>.specialoffers>i{
+    color: rgb(6, 10, 13);
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: aliceblue;
+    border-radius: 100%;
+    height: 35px;
+    width: 39px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+.header-block .header-blockin .modules>.specialoffers>h5
+{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration-line: overline;
+}
+.header-block .header-blockin .modules>.mytrips{
+   height: 80px;
+   width: 210px;
+   /* border: 2px solid green; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header-block .header-blockin .modules>.mytrips>i{
+    color: rgb(6, 10, 13);
+    font-weight: bolder;
+    font-size: larger;
+    background-color: aliceblue;
+    border-radius: 100%;
+    height: 35px;
+    width: 39px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+.header-block .header-blockin .modules>.mytrips>h5{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration-line: overline;
+}
+.header-block .header-blockin .modules>.login{
+    height: 80px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-block .header-blockin .modules>.login>p{
+    color: rgb(6, 10, 13);
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: aliceblue;
+    border-radius: 100%;
+    height: 35px;
+    width: 33px;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-left: 7px;
+    transform: rotate(180deg);
+}
+.header-block .header-blockin .modules>.login>h5{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration-line: overline;
+}   
+.header-block .header-blockin .modules>.inr{
+    height: 80px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-block .header-blockin .modules>.inr>h1{
+    color: rgb(6, 10, 13);
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: aliceblue;
+    border-radius: 100%;
+    height: 35px;
+    width: 33px;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-left: 7px;
+    transform: rotate(180deg);
+}
+.header-block .header-blockin .modules>.inr>h5{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration-line: overline;
+}
+.navicon{
+   border: 2px solid white;
+   height: 65px;
+   width: 1050px;
+   margin-top: 15px; 
+   margin-left: 510px;
+   background-color: rgb(225, 225, 217);
+   border-radius: 20px;
+   display: flex;
+   justify-content:space-evenly;
+   color: rgb(78, 78, 200);
+   position: relative;
+    z-index: 1;
+}
+.navicon .flights{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .flights i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .flights h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .flights h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .flights i:hover{
+    color: darkred;
+}
+/* hotels */
+.navicon .hotels{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .hotels i{ 
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .hotels h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .hotels h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .hotels i:hover{
+    color: darkred;
+}
+/* packages */
+.navicon .packages{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .packages i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .packages h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .packages h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .packages i:hover{
+    color: darkred;
+}
+/* cabs */
+.navicon .cabs{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .cabs i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .cabs h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .cabs h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .cabs i:hover{
+    color: darkred;
+}
+/* train */
+.navicon .trains{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .trains i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .trains h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .trains h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .trains i:hover{
+    color: darkred;
+}
+/* bus */
+.navicon .bus{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .bus i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .bus h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .bus h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .bus i:hover{
+    color: darkred;
+}
+/* payment */
+.navicon .payment{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .payment i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .payment h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .payment h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .payment i:hover{
+    color: darkred;
+}
+/* feedback */
+.navicon .feedback{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .feedback i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .feedback h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .feedback h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .feedback i:hover{
+    color: darkred;
+}
+/* reviews */
+.navicon .reviews{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .reviews i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .reviews h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .reviews h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .reviews i:hover{
+    color: darkred;
+}
+/* activities */
+.navicon .activities{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+}
+.nav-block .activities i{
+    font-size: xx-large;
+    color: blue;
+   padding-top: 10px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+.nav-block .activities h6{
+    text-align: center;
+    font-size: large;
+}
+.nav-block .activities h6:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.nav-block .activities i:hover{
+    color: darkred;
+}
+#flightblock{
+    height: 355px;
+    width: 1160px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    margin-left: 450px;
+    border: 5px solid   blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: -40px 0px 0px 450px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+a:active{
+    color:aqua;
+}
+a:visited{
+    color: rgb(244, 8, 8);
+}
+.form-block{
+    height: 600px;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 505px;
+    margin-top: 100px;
+    display:flex ;
+    background-color: grey;
+}
+.img-block{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid blue; */
+}
+.img-block img{
+    filter: saturate(3);
+}
+.signin-block{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid blue; */
+}
+.signin-block fieldset{
+    height: 500px;
+    width: 650px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border: 5px solid rgb(244, 76, 15);
+    background: linear-gradient(rgb(147, 191, 164),rgb(150, 131, 148),rgb(77, 149, 193),rgb(154, 205, 50));
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.signin-block fieldset legend{
+    border: 2px solid rgb(52, 77, 202);
+    color: aliceblue;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: rgb(66, 42, 205);
+}
+.signin-block label{
+    color: rgb(12, 11, 12);
+    font-size:larger;
+    padding-left: -100px;
+    
+}
+.signin-block #email,#pwd{
+    width: 500px;
+    height: 30px;
+    border-bottom: 5px solid rgb(247, 113, 4);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-style: oblique;
+    color: rgb(65, 16, 245);
+}
+.signin-block form .sbtn{
+    height: 45px;
+    width: 90px;
+    background-color:rgb(6, 165, 223);
+    color: rgb(255, 252, 47);
+    font-size: large;
+    border-radius: 25px;
+    border: none;
+}
+.signin-block form p{
+    color: rgb(8, 62, 188);
+    font-size: large;
+}
+.about>h1{
+    text-align: center;
+    color: rgb(23, 22, 21);
+    background-color: beige;
+    font-style: italic;
+    font-size: xx-large;
+}
+.about>p{
+    height: 400px;
+    width: 70%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    font-size: larger;
+    padding-top: 55px;
+
+}
+.about>p::first-letter{
+  color: rgb(18, 212, 18);
+  font-weight: bolder;
+    /* background-color: goldenrod; */
+}
+.about ul>li{
+   
+    color: rgb(98, 3, 23);
+    font-size: x-large;
+    margin-left: 280px;
+}
+.about ul>li::marker{
+    color: rgb(239, 21, 21);
+    font-size: x-large;
+}
+.about ul>li::selection{
+background-color: black;
+color: goldenrod;
+}

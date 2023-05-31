@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.footer-block{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(17, 13, 13);
+    margin-top: 240px;
+}
+.footer-block .inn-footerblock{
+    /* border: 2px solid white; */
+    height:600px ;
+    width:80% ;
+    margin: 0 auto;
+}
+.footer-block .inn-footerblock .subscribe-block{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid wheat; */
+    display: flex;
+    /* border-bottom: 2px solid white; */
+}
+.subscribe-block>.sb1{
+    height: 100px;
+    width: 45%;
+    /* border: 2px solid aquamarine; */
+}
+.subscribe-block>.sb1>p{
+color: white;
+font-size: medium;
+padding-top: 30px;
+padding-left: 25px;
+}
+.subscribe-block>.sb2{
+    height: 100px;
+    width: 55%;
+    /* border: 2px solid aquamarine; */
+}
+.subscribe-block>.sb2>#email{
+    height: 45px;
+    width: 450px;
+    margin-top: 28px;
+    border-radius:  10px;
+
+}
+.subscribe-block>.sb2>button{
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger; 
+}
+.fb2{
+    height: 160px;
+    width: 100%;
+    /* border: 2px solid white; */
+    color: white;
+    color: white;
+    padding-left: 35px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.fb2>.media>p{
+    width: 500px;
+}
+.fb2>.media{
+    width: 500px;
+}
+.fb2 p>span{
+    border: 2px solid white;
+    border-radius: 100%;
+     height: 0px; 
+    width: 0px; 
+
+}
+.fb2 p>span{
+    padding-top: 15px;
+}
+.fb2 .media>.icons{
+    height: 60px;
+    width: 350px;
+    /* border: 2px solid white; */
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons #li,#fb,#in,#yo,#tw 
+{
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding-left: 7px;
+    padding-top: 5px;
+    background-color: white;
+    color: black;
+}
+.country{
+    /* border: 2px solid white; */
+    height: 100px;
+    width: 600px;
+}
+.country #country-drop>option{
+    height: 45px;
+    width: 500px;
+    border: 2px dotted white;
+    background-color: rgb(8,13,26);
+    color: rgb(246, 241, 241);
+}
+.country #country-drop{
+    background-color:  rgb(8,13,26);
+    color:  rgb(246, 241, 241);
+    width: 450px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 59px;
+    font-size: large;
+    border-radius: 15px;
+}
+.list-block{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+.list-block .block1{
+    height: 250px;
+    width: 459px;
+    /* border: 2px solid yellow; */
+    color: white;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.list-block .block1 ul>li:hover{
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
+.list-block .block2 ul>li:hover{
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
+.list-block .block3 ul>li:hover{
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
+.list-block .block2{
+    height: 250px;
+    width: 459px;
+    /* border: 2px solid yellow; */
+    color: white;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.list-block .block3{
+    height: 250px;
+    width: 459px;
+    /* border: 2px solid yellow; */
+    color: white;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.domain{
+    height: 140px;
+    /* border: 2px solid white; */
+    color: white;
+}
+.domain p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.domain h6{
+    text-align: center;
+    color: grey;
+    font-size: small;
+}
+
+
